@@ -1,6 +1,6 @@
 workflow "Publish starter" {
   on = "push"
-  resolves = ["johno/push-subdirectories@master"]
+  resolves = ["push-subdirectories"]
 }
 
 action "master" {
@@ -8,8 +8,8 @@ action "master" {
   args = "branch master"
 }
 
-action "johno/push-subdirectories@master" {
-  uses = "johno/push-subdirectories@master"
+action "push-subdirectories" {
+  uses = "johno/actions-push-subdirectories@master"
   needs = ["master"]
   args = "examples johno"
   secrets = [
