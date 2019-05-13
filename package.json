@@ -1,0 +1,8 @@
+{
+  "name": "gatsby-theme-example",
+  "private": true,
+  "workspaces": [
+    "gatsby-theme-minimal",
+    "examples/*"
+  ]
+}
