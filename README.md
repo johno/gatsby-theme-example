@@ -12,7 +12,6 @@ yarn workspace gatsby-starter-theme-example develop
 This project uses a GitHub Action to publish starters to their own
 repositories so that it works seamlessly with `gatsby new`.
 
-
 ## Related
 
 - https://github.com/johno/push-subdirectories
