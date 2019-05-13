@@ -7,3 +7,8 @@ starters to their own repositories so that it works seamlessly with `gatsby new`
 yarn
 yarn workspace gatsby-starter-theme-example develop
 ```
+
+## Related
+
+- https://github.com/johno/gatsby-starter-theme-example
+- https://github.com/johno/push-subdirectories
