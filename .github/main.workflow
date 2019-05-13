@@ -11,6 +11,9 @@ action "master" {
 action "johno/push-subdirectories@master" {
   uses = "johno/push-subdirectories@master"
   needs = ["master"]
-  args = "examples"
-  secrets = ["GITHUB_TOKEN"]
+  args = "examples johno"
+  secrets = [
+    "GITHUB_TOKEN",
+    "API_TOKEN_GITHUB",
+  ]
 }
