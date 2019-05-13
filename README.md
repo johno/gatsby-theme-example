@@ -10,5 +10,5 @@ yarn workspace gatsby-starter-theme-example develop
 
 ## Related
 
-- https://github.com/johno/gatsby-starter-theme-example
 - https://github.com/johno/push-subdirectories
+- https://github.com/johno/gatsby-starter-theme-example
