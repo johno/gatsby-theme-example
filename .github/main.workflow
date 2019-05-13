@@ -8,8 +8,8 @@ action "Master branch" {
   args = "master"
 }
 
-action "johno/actions-push-subdirectories@master" {
-  uses = "johno/actions-push-subdirectories"
+action "Push starter to own repo" {
+  uses = "johno/actions-push-subdirectories@master"
   needs = ["Master branch"]
   args = "examples"
   secrets = ["GITHUB_TOKEN", "GITHUB_API_TOKEN"]
