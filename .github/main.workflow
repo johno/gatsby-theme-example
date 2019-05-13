@@ -1,6 +1,6 @@
 workflow "Publish starter" {
   on = "push"
-  resolves = ["johno/actions-push-subdirectories@master"]
+  resolves = ["Publish starter to own repo"]
 }
 
 action "Master branch" {
